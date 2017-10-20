@@ -19,9 +19,9 @@ next costume
 
 --- collapse ---
 ---
-title: My jumper went blank!
+title: My jumper went blank
 ---
-You might notice that sometimes when you click on the jumper sprite you accidentally drag it a little bit too, and that means it covers up the picture and the other details. Add this block at the end to send your jumper behind the other sprites when it is clicked so you can always see the decorations.
+You might notice that sometimes when you click on the **jumper** sprite you accidentally drag it a little bit too, and that means it covers up the picture and the stripes. Add this block at the end to send your jumper behind the other sprites when it is clicked so you can always see the other sprites, even if you accidentally drag the sprite.
 
 ```blocks
 when this sprite clicked

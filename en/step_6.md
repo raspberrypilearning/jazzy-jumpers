@@ -15,3 +15,7 @@ Let's save the random costume that was chosen for the jumper inside this variabl
 Then, set the costume to the value of the variable `jumper`{:class="blockdata"}, which now holds the random number.
 
 ![Save as variable](images/save-as-variable.gif)
+
++ Click the green flag and check that your jumper background still chooses a random colour each time.
+
++ Add some code to the other three sprites so that their costume number is remembered. 

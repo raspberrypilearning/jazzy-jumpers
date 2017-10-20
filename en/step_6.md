@@ -8,7 +8,7 @@ A good way of storing data to use later on is by creating **variables**.
 
 [[[generic-scratch-add-variable]]]
 
-Let's save the random costume that was chosen for the jumper inside this variable, so that the program remembers it for later.
+You're going to save the random costume that was chosen for the jumper inside this variable, so that the program remembers it for later.
 
 + Set the value of the `jumper`{:class="blockdata"} variable as the green `pick random 1 to 3`{:class="blockoperators"} block to save the number that was chosen.
 
@@ -18,4 +18,4 @@ Then, set the costume to the value of the variable `jumper`{:class="blockdata"},
 
 + Click the green flag and check that your jumper background still chooses a random colour each time.
 
-+ Add some code to the other three sprites so that their costume number is remembered. 
++ Add some code to the other three sprites so that their costume number is saved in a variable. You will need to create three more variables, one for each sprite, so this time your code will be slightly different for each sprite.

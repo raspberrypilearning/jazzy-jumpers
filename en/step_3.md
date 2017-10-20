@@ -12,4 +12,6 @@
 
 ![Jumper costumes](images/jumper-costumes.png)
 
-+ If you like, you can use the fill tool to change the colours of the costumes. Make sure you leave the **none** costume as white.
++ If you like, you can use the fill tool to change the colours of the costumes. Change the name of the costume too so that it matches the new colour.
+
++ Make sure you leave the **none** costume at the end, and make sure it is plain white.

@@ -60,4 +60,4 @@ when I receive [wrong v]
 switch costume to [wrong v]
 ```
 
-If any of the sprites making up the jumper broadcasts that its costume was wrong, the player will see the X costume. If not, they will see the ✔ costume.
+If any of the sprites making up the jumper broadcasts that its costume was wrong, the player will see the X. If not, they will see the ✔.

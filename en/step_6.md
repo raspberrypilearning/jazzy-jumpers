@@ -18,7 +18,9 @@ Then, set the costume to the value of the variable `jumper`{:class="blockdata"},
 
 + Click the green flag and check that your jumper background still chooses a random colour each time.
 
-+ Add some code to the other three sprites so that their costume number is saved in a variable. You will need to create three more variables, one for each sprite, so this time your code will be slightly different for each sprite.
++ Create three more variables, one named after each sprite.
+
++ Add some code to the other three sprites so that their costume number is saved in a variable. This time your code will be slightly different for each sprite because each sprite will have its own variable.
 
 + Make sure that you hide the variables from the stage by right-clicking on them and selecting hide, otherwise the game will be very easy for your player!
 

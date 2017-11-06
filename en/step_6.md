@@ -2,7 +2,7 @@
 
 So far the program creates a random jumper for the player to remember, and then hides it. However, we've made a mistake! We didn't note down anywhere which costumes were randomly chosen, so how will we know if the player has recreated the jumper correctly?
 
-A good way of storing data to use later on is by creating **variables**.
+You can create **variables** to save information you will need to use later on.
 
 + Click on the jumper sprite and create a variable (for all sprites) called `jumper`{:class="blockdata"}
 

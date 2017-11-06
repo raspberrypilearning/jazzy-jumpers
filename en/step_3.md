@@ -14,6 +14,6 @@
 
 + If you like, you can use the fill tool to change the colours of the costumes. Change the name of the costume too so that it matches the new colour.
 
-+ Make sure you leave the **none** costume at the end, and make sure it is plain white.
++ Make sure you leave the **none** costume at the end, and make sure it is plain white. The white costume is shown when the player is trying to remember the jumper.
 
-+ You can change the colours or pictures on all four parts of the jumper if you want to.
++ You can change the colours or pictures on all four sprites which make up the jumper if you want to - these are the sprites `jumper`, `stripes`, `trim` and `picture`.

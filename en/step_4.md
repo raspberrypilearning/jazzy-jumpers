@@ -23,7 +23,7 @@ broadcast [new jumper v]
 ---
 title: Answer
 ---
-Absolutely nothing! This is because you haven't told the parts of the jumper what to do when they hear this broadcast, so they won't do anything yet. Let's tell them what to do.
+Absolutely nothing happens! This is because you haven't told the parts of the jumper what to do when they hear this broadcast, so they won't do anything yet. Let's tell them what to do.
 --- /collapse ---
 
 + Click on the **jumper** sprite in the "Sprites" panel
@@ -59,7 +59,7 @@ The colour might not change every single time you press the green flag, because 
 The code you will need to use is exactly the same for all of the sprites!
 --- /hint ---
 --- hint ---
-You can save time by duplicating the code. Right click on the `when I receive`{:class="blockcontrol"} block and select duplicate, then move the code on top of one of the other sprites in the "Sprites" panel and click to drop it.
+You can save time by duplicating the code. Drag all the code attached to the `when I receive`{:class="blockcontrol"} block on top of one of the other sprites in the "Sprites" panel and let go to drop it.
 
 Look inside that sprite and you should see a copy of the code.
 --- /hint ---

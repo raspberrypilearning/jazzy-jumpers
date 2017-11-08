@@ -4,7 +4,7 @@ So far the program creates a random jumper for the player to remember, and then 
 
 You can create **variables** to save information you will need to use later on.
 
-+ Click on the jumper sprite and create a variable (for all sprites) called `jumper`{:class="blockdata"}
++ Click on the `jumper` sprite and create a variable called `jumper`{:class="blockdata"}.
 
 [[[generic-scratch-add-variable]]]
 
@@ -12,7 +12,7 @@ You're going to save the random costume that was chosen for the jumper inside th
 
 + Set the value of the `jumper`{:class="blockdata"} variable as the green `pick random 1 to 3`{:class="blockoperators"} block to save the number that was chosen.
 
-Then, set the costume to the value of the variable `jumper`{:class="blockdata"}, which now holds the random number.
++ Then set the costume to the value of the variable `jumper`{:class="blockdata"}, which now holds the random number.
 
 ![Save as variable](images/save-as-variable.gif)
 
@@ -20,8 +20,8 @@ Then, set the costume to the value of the variable `jumper`{:class="blockdata"},
 
 + Create three more variables, one named after each sprite.
 
-+ Add some code to the other three sprites so that their costume number is saved in a variable. This time your code will be slightly different for each sprite because each sprite will have its own variable.
++ Add some code to the other three sprites so that their costume number is saved in the variable named after it. Your code will be slightly different for each sprite, because each sprite will have its own variable.
 
-+ Make sure that you hide the variables from the stage by right-clicking on them and selecting hide, otherwise the game will be very easy for your player!
++ Make sure that you hide the variables from the stage by right-clicking on them and selecting **hide**, otherwise the game will be very easy for your player!
 
 ![Hide variable](images/hide-variable.png)

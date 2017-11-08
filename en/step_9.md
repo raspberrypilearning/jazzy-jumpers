@@ -4,17 +4,17 @@
 
 --- hints ---
 --- hint ---
-The broadcast "new jumper" starts the process all over again. Perhaps you could wait for a few seconds after showing the result and then broadcast this message?
+The broadcast `new jumper` starts the process all over again. Perhaps you could wait for a few seconds after showing the result, and then broadcast this message?
 --- /hint ---
 --- /hints ---
 
-+ Add a "winning streak" variable to keep track of how many correct jumpers in a row the player has remembered? If they get one wrong, the streak counter should go back to zero.
++ Can you add a `winning streak` variable to keep track of how many correct jumpers in a row the player has remembered? If they get one wrong, the streak counter should go back to zero.
 
-+ Add a high score variable to keep track of the longest streak
++ Add a high score variable to keep track of the longest streak.
 
 [[[generic-scratch-high-score]]]
 
-+ Add some more costumes to each of the sprites so that there are more possible colours to remember. Don't forget to update the code that chooses a random costume from 1 to 3 if you add more costumes.
++ Add some more costumes to each of the sprites so that there are more possible colours to remember. If you do, don't forget to update the code that chooses a random costume so that it chooses between all the available costumes including your new ones.
 
 + Add another sprite to represent a different part of the jumper to make the game even harder. Perhaps you could have sleeve colours, or a circle on the tummy?
 

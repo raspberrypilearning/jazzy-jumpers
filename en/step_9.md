@@ -4,11 +4,11 @@
 
 --- hints ---
 --- hint ---
-The broadcast `new jumper` starts the process all over again. Perhaps you could wait for a few seconds after showing the result, and then broadcast this message?
+The broadcast `new jumper`{:class="blockevents"} starts the process all over again. Perhaps you could wait for a few seconds after showing the result, and then broadcast this message?
 --- /hint ---
 --- /hints ---
 
-+ Can you add a `winning streak` variable to keep track of how many correct jumpers in a row the player has remembered? If they get one wrong, the streak counter should go back to zero.
++ Can you add a `winning streak`{:class="blockdata"} variable to keep track of how many correct jumpers in a row the player has remembered? If they get one wrong, the streak counter should go back to zero.
 
 + Add a high score variable to keep track of the longest streak.
 

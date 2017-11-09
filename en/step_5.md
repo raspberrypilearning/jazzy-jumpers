@@ -2,7 +2,7 @@
 
 The aim of the game is for the player to memorise the jumper, so you need to make it disappear after a few seconds.
 
-+ Go back to the **stage** and add some code so that, when the **stage** receives the `new jumper` broadcast, it waits for three seconds and then broadcasts a new `hide jumper` message.
++ Go back to the **Stage** and add some code so that, when the **Stage** receives the `new jumper` broadcast, it waits for three seconds and then broadcasts a new `hide jumper` message.
 
 --- hints ---
 --- hint ---
@@ -21,7 +21,7 @@ broadcast [hide jumper v]
 --- /hint ---
 --- /hints ---
 
-+ Switch to the `jumper` sprite. Add some code so that, when this sprite hears the `hide jumper` broadcast, it switches to the blank "none" costume.
++ Switch to the `Jumper` sprite. Add some code so that, when this sprite hears the `hide jumper` broadcast, it switches to the blank "none" costume.
 
 ```blocks
 when I receive [hide jumper v]

@@ -1,6 +1,6 @@
 ## Parts of the jumper
 
-+ Open the [starter project https://scratch.mit.edu/projects/181128260/#editor](https://scratch.mit.edu/projects/181128260/#editor). **Shortlink this!**
++ Open the [starter project](http://jumpto.cc/jazzy-go). 
 
 + Take a look at the sprites in the project: you have one sprite for each of the four parts which make up the jumper and one button sprite.
 

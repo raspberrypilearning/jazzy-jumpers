@@ -14,7 +14,7 @@ The broadcast `new jumper`{:class="blockevents"} starts the process all over aga
 
 [[[generic-scratch-high-score]]]
 
-+ Add some more costumes to each of the sprites so that there are more possible colours to remember. If you do, don't forget to update the code that chooses a random costume so that it chooses between all the available costumes including your new ones.
++ Add more costumes to each of the sprites so that there are more possible colours to remember. If you do, don't forget to update the code that chooses a random costume so that it chooses between all the available costumes including your new ones.
 
 + Add another sprite to represent a different part of the jumper to make the game even harder. Perhaps you could have sleeve colours, or a circle on the tummy?
 

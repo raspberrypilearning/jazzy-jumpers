@@ -13,11 +13,7 @@ The aim of the game is for the player to memorise the jumper, so you need to mak
 --- hint ---
 Here is the code you will need to add to the stage:
 
-```blocks
-when I receive [new jumper v]
-wait (3) secs
-broadcast [hide jumper v]
-```
+![Broadcast hide](images/broadcast-hide.png)
 --- /hint ---
 --- /hints ---
 

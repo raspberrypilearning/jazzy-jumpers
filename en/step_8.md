@@ -18,10 +18,7 @@ The `right` and `wrong` costumes will be used to display whether the player's ju
 --- hint ---
 Here is the code you will need to add to the `Button` sprite:
 
-```blocks
-when this sprite clicked
-broadcast [check v]
-```
+![Broadcast check](images/broadcast-check.png)
 --- /hint ---
 --- /hints ---
 

@@ -1,6 +1,6 @@
 ## Parts of the jumper
 
-+ Open the [starter project](http://jumpto.cc/jazzy-go). 
++ Open the starter project at [http://jumpto.cc/jazzy-go](http://jumpto.cc/jazzy-go){:target="_blank"}. 
 
 + Take a look at the sprites in the project: you have five sprites in total, one for each of the four parts which make up the jumper and one for the button.
 

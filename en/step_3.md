@@ -1,8 +1,8 @@
 ## Parts of the jumper
 
-+ Open the starter project at [http://jumpto.cc/jazzy-go](http://jumpto.cc/jazzy-go){:target="_blank"}
++ Open the starter project online at [http://jumpto.cc/jazzy-go](http://jumpto.cc/jazzy-go){:target="_blank"} or use the [offline project starter](resources/jazzy-jumpers-starter.sb2).
 
-If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project to your account. 
+If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project to your account.
 
 + Take a look at the sprites in the project: you have five sprites in total, one for each of the four parts which make up the jumper and one for the button.
 

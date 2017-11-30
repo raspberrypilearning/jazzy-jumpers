@@ -1,7 +1,7 @@
 title: Jazzy jumpers
 hero_image: images/banner.png
 description: Create a memory game involving jazzy jumpers
-theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: violet # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2 # possible values: 1, 2 or 3
 listed: true
 ingredient: false

@@ -17,7 +17,7 @@ Here is the code you will need to add to the stage:
 --- /hint ---
 --- /hints ---
 
-+ Switch to the `Jumper` sprite. Add some code so that, when this sprite hears the `hide jumper` broadcast, it switches to the blank "none" costume.
++ Switch to the `Jumper` sprite. Start a new block of code so that, when this sprite hears the `hide jumper` broadcast, it switches to the blank "none" costume.
 
 ```blocks
 when I receive [hide jumper v]

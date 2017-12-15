@@ -57,10 +57,11 @@ The colour might not change every single time you click the green flag, because 
 --- hints ---
 --- hint ---
 The code you will need to use is exactly the same for all of the sprites!
---- /hint ---
---- hint ---
+
 You can save time by duplicating the code. Drag all the code attached to the `when I receive`{:class="blockcontrol"} block on top of one of the other sprites in the **Sprites** panel, and let go to drop it.
 
 Look inside that sprite, and you should see a copy of the code.
 --- /hint ---
 --- /hints ---
+
+As you add more parts to the jumper, it becomes much harder for the player to memorise each one, making the game more of a challenge!

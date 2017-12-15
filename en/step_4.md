@@ -64,4 +64,4 @@ Look inside that sprite, and you should see a copy of the code.
 --- /hint ---
 --- /hints ---
 
-As you add more parts to the jumper, it becomes much harder for the player to memorise each one, adding to the challenge!
+As you add more parts to the jumper, it becomes much harder for the player to memorise each one, making the game more of a challenge!

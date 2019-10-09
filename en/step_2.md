@@ -1,6 +1,6 @@
 ## Parts of the jumper
 
-+ Open the starter project online at [http://jumpto.cc/jazzy-go](http://jumpto.cc/jazzy-go){:target="_blank"} or use the [offline starter project](https://rpf.io/p/en/jazzy-jumpers-go).
++ Open the starter project online at [jumpto.cc/jazzy-go](http://jumpto.cc/jazzy-go){:target="_blank"} or use the [offline starter project](https://rpf.io/p/en/jazzy-jumpers-go).
 
 If you are using Scratch online and you have a Scratch account, click on **Remix** in the top right-hand corner to save a copy of the project to your account.
 

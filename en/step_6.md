@@ -1,27 +1,31 @@
-## What was on the jumper?
+## Recreate the jumper
 
-So far the program creates a random jumper for the player to remember, and then hides it. However, we've made a mistake! We didn't note down anywhere which costumes were randomly chosen, so how will we know if the player has recreated the jumper correctly?
+The player needs to be able to recreate the jumper they saw by clicking on the different parts until they match the original jumper.
 
-To save information you will need to use later on, you can create **variables**.
++ Switch to the `Jumper` sprite.
 
-+ Click on the `Jumper` sprite and create a variable called `jumper`{:class="blockdata"}.
++ Add some code so that, when the sprite is clicked on, it will display the next available costume.
 
-[[[generic-scratch-add-variable]]]
+```blocks3
+when this sprite clicked
+next costume
+```
 
-You're going to save the random costume that was chosen for the `Jumper` sprite inside this variable, so that the program remembers it for later.
++ Add the same code to all four sprites making up the jumper.
 
-+ Set the value of the `jumper`{:class="blockdata"} variable as the green `pick random 1 to 3`{:class="blockoperators"} block to save the number that was chosen.
++ Test your code by waiting for the blank jumper to display, and then clicking on the different parts. Do they change colour each time you click?
 
-+ Then set the costume to the value of the variable `jumper`{:class="blockdata"}, which now holds a random number between 1 and 3.
+![Partly blank jumper](images/partly-blank.png)
 
-![Save as variable](images/save-as-variable.gif)
+--- collapse ---
+---
+title: My jumper went blank!
+---
+You might notice that sometimes when you click on the `Jumper` sprite, you accidentally drag it a little bit too, and that means it covers up the `Picture` and the `Stripes` sprites. Add the following block at the end to send your `Jumper` sprite behind the other sprites when it is clicked. Then you can always see the other sprites, even if you accidentally drag the `Jumper` sprite.
 
-+ Click the green flag and check that your `Jumper` sprite still chooses a random colour each time.
-
-+ Create three more variables, one named after each other sprite making up the jumper.
-
-+ Add some code to the other three sprites so that their costume number is saved in the variable named after it. Your code will be slightly different for each sprite, because each sprite will have its own variable.
-
-+ Make sure that you hide the variables from the stage by right-clicking on them and selecting **hide**, otherwise the game will be very easy for your player!
-
-![Hide variable](images/hide-variable.png)
+```blocks3
+when this sprite clicked
+next costume
+go back (3) layers
+```
+--- /collapse ---

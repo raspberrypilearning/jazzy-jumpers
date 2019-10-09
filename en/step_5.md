@@ -1,31 +1,27 @@
-## Hide the jumper
+## What was on the jumper?
 
-The aim of the game is for the player to memorise the jumper, so you need to make it disappear after a few seconds.
+So far the program creates a random jumper for the player to remember, and then hides it. However, we've made a mistake! We didn't note down anywhere which costumes were randomly chosen, so how will we know if the player has recreated the jumper correctly?
 
-+ Go back to the **Stage** and add some code so that, when the **Stage** receives the `new jumper` broadcast, it waits for three seconds and then broadcasts a new `hide jumper` message.
+To save information you will need to use later on, you can create **variables**.
 
---- hints ---
---- hint ---
-`When I receive new jumper`{:class="blockevents"}
-`Wait for 3 seconds`{:class="blockcontrol"}
-`Broadcast hide jumper`{:class="blockevents"}
---- /hint ---
---- hint ---
-Here is the code you will need to add to the stage:
++ Click on the `Jumper` sprite and create a variable called `jumper`{:class="block3variables"}.
 
-![Broadcast hide](images/broadcast-hide.png)
---- /hint ---
---- /hints ---
+[[[generic-scratch3-add-variable]]]
 
-+ Switch to the `Jumper` sprite. Start a new block of code so that, when this sprite hears the `hide jumper` broadcast, it switches to the blank "none" costume.
+You're going to save the random costume that was chosen for the `Jumper` sprite inside this variable, so that the program remembers it for later.
 
-```blocks
-when I receive [hide jumper v]
-switch costume to [none v]
-```
++ Set the value of the `jumper`{:class="block3variables"} variable as the green `pick random 1 to 3`{:class="block3operators"} block to save the number that was chosen.
 
-+ Add similar code to the other sprites making up the jumper.
++ Then set the costume to the value of the variable `jumper`{:class="block3variables"}, which now holds a random number between 1 and 3.
 
-+ Click the green flag and test your code. Does the jumper switch to all white with a question mark picture three seconds after the green flag is clicked?
+![Save as variable](images/save-as-variable.gif)
 
-![Blank jumper](images/blank-jumper.png)
++ Click the green flag and check that your `Jumper` sprite still chooses a random colour each time.
+
++ Create three more variables, one named after each other sprite making up the jumper.
+
++ Add some code to the other three sprites so that their costume number is saved in the variable named after it. Your code will be slightly different for each sprite, because each sprite will have its own variable.
+
++ Make sure that you hide the variables from the stage by unselecting the boxes in the variables menu, otherwise the game will be very easy for your player!
+
+![Hide variable](images/hide-variable.png)

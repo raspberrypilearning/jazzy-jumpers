@@ -1,3 +1,9 @@
+--- no-print ---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/jazzy-jumpers-scratch2).
+
+--- /no-print ---
+
 ## Introduction
 
 Create a memory game involving jazzy jumpers.
@@ -10,8 +16,24 @@ Below is an example of the game you will be making. Click the flag to begin. Mem
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/181128192/?autostart=false" frameborder="0"></iframe>
 </div>
 
+--- collapse ---
+---
+title: What you will need
+---
+### Hardware
 
-### What you will learn
++ A computer capable of running Scratch 3
+
+### Software
+
++ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/){:target="_blank"} or [offline](https://scratch.mit.edu/download/){:target="_blank"})
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: What you will learn
+---
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
@@ -19,8 +41,15 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 + [Design basic 2D and 3D assets](https://curriculum.raspberrypi.org/design/creator/){:target="_blank"}
 
-### Additional information for educators
+--- /collapse ---
+
+--- collapse ---
+---
+title: Additional information for educators
+---
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/jazzy-jumpers/print){:target="_blank"}.
 
-Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+Download the finished project code at:
+[http://rpf.io/p/en/jazzy-jumpers-get](http://rpf.io/p/en/jazzy-jumpers-get).
+--- /collapse ---

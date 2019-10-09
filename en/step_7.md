@@ -1,31 +1,61 @@
-## Recreate the jumper
+## The right jumper
 
-The player needs to be able to recreate the jumper they saw by clicking on the different parts until they match the original jumper.
+When the player thinks they have recreated the jumper correctly, they should click on the button to be told whether they were right or wrong.
 
-+ Switch to the `Jumper` sprite.
++ Click on the `Button` sprite and look at its costumes.
 
-+ Add some code so that, when the sprite is clicked on, it will display the next available costume.
+![Button costumes](images/button-costumes.png)
 
-```blocks
-when this sprite clicked
-next costume
+The `right` and `wrong` costumes will be used to display whether the player's jumper was the same as the one that was displayed at the start.
+
++ Add some code to the `Button` sprite so that, when it is clicked, it broadcasts a new message called `check`.
+
+--- hints ---
+--- hint ---
+`When this sprite clicked`{:class="block3events"}
+`broadcast check`{:class="block3events"}
+--- /hint ---
+--- hint ---
+Here is the code you will need to add to the `Button` sprite:
+
+![Broadcast check](images/broadcast-check.png)
+--- /hint ---
+--- /hints ---
+
+When the other sprites hear the message`check`, they should each check whether the current `costume number`{:class="block3looks"} is the same as the costume number saved in the `variable`{:class="block3variables"} named after them.
+
+If the costume numbers do `not`{:class="block3operators"} match, the sprites should broadcast the message `wrong`.
+
++ Switch to the `Jumper` sprite and add some code to check whether the player selected the correct colour. If they were wrong, broadcast `wrong`.
+
+```blocks3
+when I receive [check v]
+if <not <(costume [number v]) = (jumper)>> then
+broadcast (wrong v)
+end
 ```
 
-+ Add the same code to all four sprites making up the jumper.
+Note that you will need two green blocks: one for `not`{:class="block3operators"}, and another one inside it for `=`{:class="block3operators"}.
 
-+ Test your code by waiting for the blank jumper to display, and then clicking on the different parts. Do they change colour each time you click?
++ Add similar code to the other three sprites making up the jumper, but be careful to check the current costume number against the correct variable for that sprite.
 
-![Partly blank jumper](images/partly-blank.png)
++ Now switch back to the `Button` sprite.
 
---- collapse ---
----
-title: My jumper went blank!
----
-You might notice that sometimes when you click on the `Jumper` sprite, you accidentally drag it a little bit too, and that means it covers up the `Picture` and the `Stripes` sprites. Add the following block at the end to send your `Jumper` sprite behind the other sprites when it is clicked. Then you can always see the other sprites, even if you accidentally drag the `Jumper` sprite.
+We will assume the player is right unless we receive a broadcast saying they were wrong.
 
-```blocks
++ Add a block after you broadcast `check` to switch to the `right` costume.
+
+```blocks3
 when this sprite clicked
-next costume
-go back (3) layers
+broadcast (check v)
+switch costume to (right v)
 ```
---- /collapse ---
+
++ Also add blocks to switch to the `wrong` costume if the `wrong` broadcast is received.
+
+```blocks3
+when I receive [wrong v]
+switch costume to (wrong v)
+```
+
+If any of the sprites making up the jumper broadcasts that its costume was wrong, the player will see the X. If not, they will see the ✔.

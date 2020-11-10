@@ -13,7 +13,7 @@ Create a memory game involving jazzy jumpers.
 Below is an example of the game you will be making. Click the flag to begin. Memorise the jazzy jumper, then click on each part of the jumper template you're shown to change the colours and recreate the jumper you've memorised. When you think you've got it, press the button to see if you were right or not.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/181128192/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/447871649/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- collapse ---

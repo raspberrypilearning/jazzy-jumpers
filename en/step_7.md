@@ -1,12 +1,12 @@
 ## The right jumper
 
-When the player thinks they have recreated the jumper correctly, they should click on the button to be told whether they were right or wrong.
+When the player thinks they have recreated the jumper correctly, they should click on the button to be told whether they were correct or wrong.
 
 + Click on the `Button` sprite and look at its costumes.
 
 ![Button costumes](images/button-costumes.png)
 
-The `right` and `wrong` costumes will be used to display whether the player's jumper was the same as the one that was displayed at the start.
+The `correct` and `wrong` costumes will be used to display whether the player's jumper was the same as the one that was displayed at the start.
 
 + Add some code to the `Button` sprite so that, when it is clicked, it broadcasts a new message called `check`.
 
@@ -41,14 +41,14 @@ Note that you will need two green blocks: one for `not`{:class="block3operators"
 
 + Now switch back to the `Button` sprite.
 
-We will assume the player is right unless we receive a broadcast saying they were wrong.
+We will assume the player is correct unless we receive a broadcast saying they were wrong.
 
-+ Add a block after you broadcast `check` to switch to the `right` costume.
++ Add a block after you broadcast `check` to switch to the `correct` costume.
 
 ```blocks3
 when this sprite clicked
 broadcast (check v)
-switch costume to (right v)
+switch costume to (correct v)
 ```
 
 + Also add blocks to switch to the `wrong` costume if the `wrong` broadcast is received.
@@ -58,4 +58,4 @@ when I receive [wrong v]
 switch costume to (wrong v)
 ```
 
-If any of the sprites making up the jumper broadcasts that its costume was wrong, the player will see the X. If not, they will see the ✔.
+If any of the sprites making up the jumper broadcasts that its costume was wrong, the player will see the word 'wrong'. If not, they will see the word 'correct'.

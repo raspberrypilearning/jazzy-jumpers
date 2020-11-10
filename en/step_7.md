@@ -1,4 +1,4 @@
-## The right jumper
+## The correct jumper
 
 When the player thinks they have recreated the jumper correctly, they should click on the button to be told whether they were correct or wrong.
 

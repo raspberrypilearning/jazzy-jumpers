@@ -17,12 +17,14 @@ version: 4
 last_tested: 2017-12-01
 steps:
 - title: Introduction
-  completion: engaged
 - title: Parts of the jumper
 - title: New jumper
+  completion:
+  - engaged
 - title: Hide the jumper
 - title: What was on the jumper?
 - title: Recreate the jumper
 - title: The correct jumper
-  completion: internal
+  completion:
+  - internal
 - title: 'Challenge: enhance the game'

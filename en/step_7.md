@@ -12,15 +12,12 @@ The `correct` and `wrong` costumes will be used to display whether the player's 
 
 --- hints ---
 --- hint ---
-`When this sprite clicked`{:class="block3events"}
-`broadcast check`{:class="block3events"}
---- /hint ---
---- hint ---
 Here is the code you will need to add to the `Button` sprite:
 
 ![Broadcast check](images/broadcast-check.png)
 --- /hint ---
 --- /hints ---
+
 
 When the other sprites hear the message`check`, they should each check whether the current `costume number`{:class="block3looks"} is the same as the costume number saved in the `variable`{:class="block3variables"} named after them.
 

@@ -6,16 +6,12 @@ The aim of the game is for the player to memorise the jumper, so you need to mak
 
 --- hints ---
 --- hint ---
-`When I receive new jumper`{:class="block3events"}
-`Wait for 3 seconds`{:class="block3control"}
-`Broadcast hide jumper`{:class="block3events"}
---- /hint ---
---- hint ---
 Here is the code you will need to add to the stage:
 
 ![Broadcast hide](images/broadcast-hide.png)
 --- /hint ---
 --- /hints ---
+
 
 + Switch to the `Jumper` sprite. Start a new block of code so that, when this sprite hears the `hide jumper` broadcast, it switches to the blank "none" costume.
 

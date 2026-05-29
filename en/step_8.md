@@ -8,6 +8,7 @@ The broadcast `new jumper`{:class="block3events"} starts the process all over ag
 --- /hint ---
 --- /hints ---
 
+
 + Can you add a `winning streak`{:class="block3variables"} variable to keep track of how many correct jumpers in a row the player has remembered? If they get one wrong, the streak counter should go back to zero.
 
 + Add a high score variable to keep track of the longest streak.

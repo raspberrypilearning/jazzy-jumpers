@@ -28,5 +28,6 @@ steps:
   completion:
   - internal
 - title: 'Challenge: enhance the game'
+  challenge: true
   completion:
   - external
